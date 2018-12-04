@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!--核心类-->
+  <servlet>
+    <servlet-name>CoreServlet</servlet-name>
+    <servlet-class>main.CoreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CoreServlet</servlet-name>
+    <url-pattern>/CoreServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--创建菜单-->-
+  <servlet>
+    <servlet-name>CreateMenuServlet</servlet-name>
+    <servlet-class>main.CreateMenuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateMenuServlet</servlet-name>
+    <url-pattern>/CreateMenuServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
